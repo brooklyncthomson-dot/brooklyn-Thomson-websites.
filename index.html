@@ -1,1 +1,158 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brooklyn Thomson | Figure Skating</title>
+  <meta name="description" content="The figure skating journey and achievements of Brooklyn Thomson.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #29252a;
+      background: #fffafd;
+    }
+    header {
+      padding: 18px 7%;
+      background: white;
+      border-bottom: 1px solid #f0e3eb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo { font-weight: bold; letter-spacing: 1px; }
+    nav a {
+      color: #55434e;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+      background: linear-gradient(145deg, #fcebf4, #fffafd, #f6eafa);
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: #a16b8a;
+      font-size: 12px;
+    }
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(42px, 8vw, 76px);
+      font-weight: normal;
+      margin: 20px 0;
+    }
+    .hero p {
+      max-width: 500px;
+      margin: 0 auto;
+      line-height: 1.8;
+      color: #6e6069;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 13px 24px;
+      background: #b77f9c;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+    }
+    section { padding: 65px 8%; }
+    h2 {
+      font-family: Georgia, serif;
+      font-weight: normal;
+      font-size: 34px;
+    }
+    .intro { max-width: 680px; line-height: 1.9; color: #6e6069; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #f0e3eb;
+      border-radius: 15px;
+      padding: 25px;
+    }
+    .card h3 { color: #a16b8a; }
+    footer {
+      text-align: center;
+      padding: 28px 15px;
+      background: #f9edf4;
+      color: #786674;
+      font-size: 13px;
+    }
+    @media (max-width: 480px) {
+      header { align-items: flex-start; flex-direction: column; }
+      nav a { margin: 0 12px 0 0; }
+      .hero { padding: 65px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">BROOKLYN THOMSON</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skating">Skating</a>
+      <a href="#journey">My Journey</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">Figure Skating • Dedication • Dreams</div>
+      <h1>Brooklyn Thomson</h1>
+      <p>A figure skater with a love for the ice, a passion for progress, and dreams worth chasing.</p>
+      <a class="button" href="#about">Discover My Journey</a>
+    </div>
+
+    <section id="about">
+      <div class="eyebrow">A little about me</div>
+      <h2>Life on the ice</h2>
+      <p class="intro">
+        Figure skating is about more than the elements. It's about the work
+        behind every moment, the courage to keep learning, and the feeling
+        of finding your flow on the ice. This is where my skating story lives.
+      </p>
+    </section>
+
+    <section id="skating" style="background:#fdf3f8">
+      <div class="eyebrow">My skating</div>
+      <h2>Every step matters</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Skills</h3>
+          <p>Building confidence, control, and strong edges with every session.</p>
+        </div>
+        <div class="card">
+          <h3>Jumps & Spins</h3>
+          <p>Working on technique, consistency, and expressing myself on the ice.</p>
+        </div>
+        <div class="card">
+          <h3>Goals</h3>
+          <p>Learning new things, celebrating progress, and always aiming higher.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey">
+      <div class="eyebrow">The journey continues</div>
+      <h2>One skate at a time</h2>
+      <p class="intro">
+        Every practice is another opportunity to learn. I'm excited to keep
+        growing as a skater and see where this journey takes me.
+      </p>
+    </section>
+  </main>
+
+  <footer>Brooklyn Thomson • Figure Skating</footer>
+</body>
+</html>
